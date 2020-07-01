@@ -1,0 +1,12 @@
+ curl --form upload=./http/index.html http://localhost:30001
+#POST http://localhost:30001
+#Content-Type: multipart/form-data; boundary=WebAppBoundary
+#
+#--WebAppBoundary
+#Content-Disposition: form-data; name="upload"
+#
+#./http/index.html
+#--WebAppBoundary--
+#
+####
+#

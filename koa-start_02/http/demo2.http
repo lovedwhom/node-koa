@@ -1,0 +1,18 @@
+POST http://localhost:30001
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="fileName"
+
+1111
+
+--WebAppBoundary
+Content-Disposition: form-data; form-data; name="file"; filename="index.html"
+
+
+< ./index.html
+
+--WebAppBoundary--
+
+###
+
